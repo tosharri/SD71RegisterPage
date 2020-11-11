@@ -7,20 +7,28 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Register</h1>
     <!-- Navbar-->
-    <nav>
-        <nav class="navbar">
-            <a href="#" class="nav-link">About Us</a>  <!-- using a '#' will tell the program to look for the ID most similar to the name following the '#' (e.g., #family, #home, etc)-->
-            </a>
-            <a href="#" class="nav-link">Login</a>
-    </nav>
+    <div class="header">
+        <a href="About.html" class="button"><button type="button">About Us</button></a>
+        <a href="Register.html" class="button"><button type="button">Register</button></a>
+    </div>
     <!--Form-->
-    <div>
+    <div class="register">
+        <form id=registerBox>
+            <fieldset>
+            <h1>Sign Up</h1>
+            <p><input type="email", placeholder="E-Mail" id="email" /></p>
+            <p><input type="text", placeholder="Username" id="Username"></p>
+            <p><input type="password", placeholder="Password" id="pw"></p>
+            <p><input type="password", placeholder="Confirm Password" id="pwc"></p>
+            <button type="submit" class="button2">Submit</button>
         
+            <a href="https://smile.amazon.com/" class="urlbut"><img src="./assets/Amazon.png" alt="Amazon"/></a>
+            <a href="https://www.facebook.com/" class="urlbut"><img src="./assets/Facebook.png" alt="Facebook"/></a>
+            <a href="https://github.com/" class="urlbut"><img src="./assets/GitHub-Mark-64px.png" alt="GitHub"/></a>
+            <a href="https://slack.com/" class="urlbut"><img src="assets/Slack_Mark_Web.png" alt="Slack"/></a>
+            <a href="https://www.instagram.com/" class="urlbut"><img src="./assets/Instagram_AppIcon_Aug2017.png" alt="Instagram"/></a>
+            </fieldset>           
+        </form>
     </div>
 </body>
-
-<!--a tag - a button that takes you 'somewhere'>
-
-</html>
